@@ -1,0 +1,21 @@
+.container {
+    background: #EEE;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    outline: 1px dashed #999;
+}
+
+.col2 {
+    width: calc((290 / 600) * 100%);
+    border: 1px dashed #e7e7e7;
+    background: #f00;
+}
