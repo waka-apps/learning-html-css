@@ -28,7 +28,6 @@
     line-height: 1.7;
 }
   
-
 .cardList__item + .cardList__item {
     margin-top: 30px;
 }
@@ -39,7 +38,7 @@
         justify-content: space-between;
     }
     .cardList__item {
-        width: ((100% - 60px) / 3);
+        width: calc((100% - 60px) / 3);
     }
     .cardList__item + .cardList__item {
         margin-top: 0;
