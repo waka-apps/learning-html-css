@@ -1,0 +1,25 @@
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/*マークアップ要素の状態を把握しやすくするための仮スタイル*/
+.btns {
+	background: #e7e7e7;
+	display: flex;
+	justify-content: center;
+}
+.btns__item {
+	margin: 10px;
+	border: 1px dashed #999;
+	width: 80%;
+	max-width: 300px;
+}
+.btn {
+	display: block;
+	background: skyblue;
+	padding: 15px;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+}
